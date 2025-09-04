@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
-        
+    <section
+      id="home"
+      className="relative w-full min-h-[100svh] flex items-center bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 overflow-hidden pt-28 md:pt-32 pb-12"
+    >
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side - Text */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -16,13 +17,13 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-white"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
             Hi, I’m <span className="text-pink-400">Melika</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
             Data Analyst & Front-End Developer
           </h2>
-          <p className="text-lg md:text-xl text-gray-300 max-w-lg">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-lg">
             I’m a data analyst and front-end developer passionate about turning data into insights and building responsive, user-friendly applications.
           </p>
           <motion.a
@@ -37,17 +38,18 @@ export default function Hero() {
 
         {/* Right Side - Image */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-          className="flex justify-center"
+          transition={{ duration: 0.9 }}
+          className="flex justify-center sm:mt-4"
         >
           <Image
             src={"/melika1.png"}
             alt="Melika Niaz"
-            className="rounded-2xl shadow-2xl"
+            className="rounded-2xl shadow-2xl object-cover"
             width={400}
             height={400}
+            priority
           />
         </motion.div>
       </div>
