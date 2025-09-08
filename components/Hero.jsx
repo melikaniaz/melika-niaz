@@ -21,10 +21,10 @@ export default function Hero() {
             Hi, I’m <span className="text-pink-400">Melika</span>
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
-            Data Analyst & Front-End Developer
+            Data Analyst
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-lg">
-            I’m a data analyst and front-end developer passionate about turning data into insights and building responsive, user-friendly applications.
+            I’m a data analyst passionate about turning data into insights and building responsive, user-friendly applications.
           </p>
           <motion.a
             href="#contact"
@@ -44,7 +44,7 @@ export default function Hero() {
           className="flex justify-center sm:mt-4"
         >
           <Image
-            src={"/melika1.png"}
+            src={"/hero-img.png"}
             alt="Melika Niaz"
             className="rounded-2xl shadow-2xl object-cover"
             width={400}
