@@ -22,18 +22,17 @@ const projects = [
     image: "/projects/sales.png",
     tags: ["Power BI", "Python", "Pandas"],
     github: "https://github.com/yourrepo",
-    demo: "#",
-  },
-  {
-    title: "Air Travel Dashboard",
-description:"Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+  demo: "#",
+},
+{
+  title: "Air Travel Dashboard",
+  description: "Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+  image: "/projects/air_travel_dashboard.png",
+  tags: ["MySQL","Database queries and views","Power BI Desktop","Dashboard and visualization","Evaluation and interactive demo UI"],
+  github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
+  demo: "#"
+},
 
-
-    image: "public/projects/air_travel_dashboard.png",
-    tags: ["MySQL","Database queries and views","Power BI Desktop","Dashboard and visualization","Evaluation and interactive demo UI"],
-    github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
-    demo: "#",
-  },
   {
     title: "Electric Vehicle Population Analysis",
     description: "full workflow analysis on the Electric Vehicle Population Dataset. It covers data cleaning, exploratory analysis, visualizations, and automated reporting into PowerPoint.",
