@@ -25,15 +25,31 @@ const projects = [
     demo: "#",
   },
   {
-    title: "NLP Text Classifier",
-    description:
-      "End-to-end NLP pipeline for sentiment/topic classification with training, evaluation, and interactive demo UI.",
-    image: "/projects/nlp.png",
-    tags: ["Python", "scikit-learn", "NLTK"],
-    github: "https://github.com/yourrepo",
+    title: "Air Travel Dashboard",
+description:
+  "Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+
+    image: "public/projects/air_travel_dashboard.png",
+    tags: [
+      "MySQL",
+      "Database queries and views",
+      "Power BI Desktop",
+      "Dashboard and visualization",
+      "Evaluation and interactive demo UI"
+    ],
+    github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
     demo: "#",
   },
+  {
+    title: "Electric Vehicle Population Analysis",
+    description: "full workflow analysis on the Electric Vehicle Population Dataset. It covers data cleaning, exploratory analysis, visualizations, and automated reporting into PowerPoint.",
+    image: "/projects/ElectricCarDebate7.jpg",
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "PowerPoint", "Jupyter Notebookgi"],
+    github: "https://github.com/melikaniaz/ev-population-analysis",
+    demo: "#",
+  }
 ];
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },

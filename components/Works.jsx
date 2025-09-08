@@ -36,8 +36,8 @@ const defaultProjects = [
     {
         title: "Electric Vehicle Population Analysis",
         description: "full workflow analysis on the Electric Vehicle Population Dataset. It covers data cleaning, exploratory analysis, visualizations, and automated reporting into PowerPoint.",
-        image: "/projects/OIP.jpg",
-        tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "PowerPoint"],
+        image: "/projects/ElectricCarDebate7.jpg",
+        tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "PowerPoint","Jupyter Notebookgi"],
         github: "https://github.com/melikaniaz/ev-population-analysis",
         demo:"#",
     }
