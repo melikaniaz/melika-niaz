@@ -26,17 +26,11 @@ const projects = [
   },
   {
     title: "Air Travel Dashboard",
-description:
-  "Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+description:"Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+
 
     image: "public/projects/air_travel_dashboard.png",
-    tags: [
-      "MySQL",
-      "Database queries and views",
-      "Power BI Desktop",
-      "Dashboard and visualization",
-      "Evaluation and interactive demo UI"
-    ],
+    tags: ["MySQL","Database queries and views","Power BI Desktop","Dashboard and visualization","Evaluation and interactive demo UI"],
     github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
     demo: "#",
   },
