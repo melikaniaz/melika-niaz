@@ -22,17 +22,9 @@ export default function Hero() {
           </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
             Data Analyst
-          </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-lg">
-            I’m a data analyst passionate about turning data into insights and building responsive, user-friendly applications.
+          <p>
+            I’m a Data Analyst and Data & Discourse student at TU Darmstadt, ...
           </p>
-          <motion.a
-            href="#contact"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block mt-8 px-6 py-3 rounded-full bg-pink-500 text-white font-semibold shadow-lg hover:bg-pink-600 transition"
-          >
-            Contact Me
           </motion.a>
         </motion.div>
 
