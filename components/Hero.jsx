@@ -1,4 +1,5 @@
 "use client";
+"use client";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -8,6 +9,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative w-full min-h-[100svh] flex items-center bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 overflow-hidden pt-28 md:pt-32 pb-12"
+      aria-label="Hero"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6">
         {/* Left Side - Text */}
@@ -20,12 +22,19 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
             Hi, I’m <span className="text-pink-400">Melika</span>
           </h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6">
+
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
             Data Analyst
-          <p>
-            I’m a Data Analyst and Data & Discourse student at TU Darmstadt, ...
+          </h2>
+
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/90 max-w-2xl mb-4">
+            I’m a Master’s student in Data &amp; Discourse Studies at TU Darmstadt with a background in languages and communication, turning data into clear insights with SQL and Python, and currently seeking a six-month internship to apply and grow these skills.
           </p>
-          </motion.a>
+
+          {/* Education Badge */}
+          <span className="inline-block bg-pink-500/20 text-pink-300 text-sm md:text-base font-medium px-3 py-1 rounded-full shadow-sm">
+            🎓 Education: Master’s in Data &amp; Discourse Studies, TU Darmstadt
+          </span>
         </motion.div>
 
         {/* Right Side - Image */}
@@ -36,8 +45,8 @@ export default function Hero() {
           className="flex justify-center sm:mt-4"
         >
           <Image
-            src={"/hero-img.png"}
-            alt="Melika Niaz"
+            src="/hero-img.png"
+            alt="Melika Niaz portrait"
             className="rounded-2xl shadow-2xl object-cover"
             width={400}
             height={400}
