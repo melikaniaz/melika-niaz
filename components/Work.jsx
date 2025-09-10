@@ -38,7 +38,6 @@ export const projects = [
   }
 ];
 
-
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   show: (i = 0) => ({
