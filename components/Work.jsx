@@ -51,7 +51,7 @@ const projects = [
   {
     title: "AdventureWorks Sales & Customer Insights",
     description: "This repository contains a complete Business Intelligence pipeline built on the AdventureWorks sample database.",
-    image: "c:\\Users\\Melika\\OneDrive\\Desktop\\projects\\AW Sales\\1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
+    image: "public/projects/1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
     tags: ["SQL · MySQL · Power BI · Data Visualization · Business Intelligence (BI) · Data Analytics · ETL · AdventureWorks Dataset · KPIs · Customer Insights · Sales Dashboard · Data Modeling · DAXgi"],
     github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
     demo: "#"
