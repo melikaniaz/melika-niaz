@@ -5,58 +5,39 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
-const projects = [
+export const projects = [
   {
-    title: "Spotify Insights (Demo)",
-    description:
-      "A web app for visualizing personalized Spotify data: top artists, tracks, and audio features with interactive dashboards.",
-    image: "/projects/spotify.png", // می‌تونی بعداً عوضش کنی
-    tags: ["Next.js", "React", "Charting", "API"],
-    github: "https://github.com/yourrepo",
-    demo: "#",
-  },
-  {
-    title: "Sales Analytics Dashboard",
-    description:
-      "Power BI dashboard with Python preprocessing: trends, forecasting, and anomaly detection for monthly sales.",
-    image: "/projects/sales.png",
-    tags: ["Power BI", "Python", "Pandas"],
-    github: "https://github.com/yourrepo",
-    demo: "#",
-  },
-  {
+    id: "ev-population",
     title: "Electric Vehicle Population Analysis",
-    description: "full workflow analysis on the Electric Vehicle Population Dataset. It covers data cleaning, exploratory analysis, visualizations, and automated reporting into PowerPoint.",
+    description:
+      "Full workflow analysis on the Electric Vehicle Population Dataset: data cleaning, EDA, visualizations, and automated reporting into PowerPoint.",
     image: "/projects/ElectricCarDebate7.jpg",
     tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "PowerPoint", "Jupyter Notebook"],
     github: "https://github.com/melikaniaz/ev-population-analysis",
     demo: "#"
   },
   {
+    id: "air-travel-dashboard",
     title: "Air Travel Dashboard",
-    description: "Identified airlines with the highest number of flights. Compared average ticket prices (€) across airlines. Visualized market share of airlines. Highlighted flight networks (source & destination cities).",
+    description:
+      "Identified airlines with the highest number of flights, compared average ticket prices (€), visualized market share, and highlighted flight networks.",
     image: "/projects/air_travel_dashboard.png",
-    tags: ["MySQL","Database queries and views","Power BI Desktop","Dashboard and visualization","Evaluation and interactive demo UI"],
+    tags: ["MySQL", "Database queries and views", "Power BI Desktop", "Dashboard and visualization", "Evaluation and interactive demo UI"],
     github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
     demo: "#"
   },
   {
+    id: "adventureworks-bi",
     title: "AdventureWorks Sales & Customer Insights",
-    description: "This repository contains a complete Business Intelligence pipeline built on the AdventureWorks sample database.",
-    image: "c:\\Users\\Melika\\OneDrive\\Desktop\\projects\\AW Sales\\1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
-    tags: [""],
-    github: "https://github.com/melikaniaz/AdventureWorks-Sales-Insights",
-    demo: "#"
-  },
-  {
-    title: "AdventureWorks Sales & Customer Insights",
-    description: "This repository contains a complete Business Intelligence pipeline built on the AdventureWorks sample database.",
-    image: "public/projects/1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
-    tags: ["SQL · MySQL · Power BI · Data Visualization · Business Intelligence (BI) · Data Analytics · ETL · AdventureWorks Dataset · KPIs · Customer Insights · Sales Dashboard · Data Modeling · DAXgi"],
+    description:
+      "Complete Business Intelligence pipeline on the AdventureWorks sample database.",
+    image: "/projects/1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
+    tags: ["SQL", "MySQL", "Power BI", "Data Visualization", "Business Intelligence (BI)", "ETL", "AdventureWorks Dataset", "KPIs", "Customer Insights", "Sales Dashboard", "Data Modeling", "DAX"],
     github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
     demo: "#"
   }
 ];
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
