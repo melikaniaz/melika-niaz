@@ -3,16 +3,23 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn",
-  "scikit-learn", "TensorFlow", "PyTorch",
-  "NLTK", "NLP pipelines",
-  "Power BI", "SQL", "Excel",
+  "Python (Pandas, NumPy)",
+  "SQL (MySQL)",
+  "Power BI",
+  "Matplotlib",
+  "Seaborn",
+  "Data Cleaning",
+  "EDA",
+  "Machine Learning",
+  "Git/GitHub",
+  "Microsoft Office 365",
 ];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   show: (i = 0) => ({
-    opacity: 1, y: 0,
+    opacity: 1,
+    y: 0,
     transition: { duration: 0.6, delay: i * 0.08 },
   }),
 };
@@ -45,12 +52,13 @@ export default function About() {
             viewport={{ once: true }}
             custom={0}
           >
-            I am <span className="font-semibold text-white">Melika Niaz</span>, a data
-            analyst based in Frankfurt, Germany, with extensive experience in
-            transforming complex datasets into meaningful insights. Having worked on
-            more than ten academic and practical projects, I analyze data, build
-            predictive models, and design end-to-end solutions that connect raw
-            information to actionable strategies.
+            I am <span className="font-semibold text-white">Melika Niaz</span>, a
+            Master’s student in <span className="font-semibold">Data and Discourse
+            Studies at TU Darmstadt</span> with a background in languages and
+            communication. Over the course of my studies and projects, I discovered
+            a strong passion for working with data—uncovering patterns, making sense
+            of complexity, and transforming raw information into insights that
+            matter.
           </motion.p>
 
           <motion.p
@@ -60,11 +68,15 @@ export default function About() {
             viewport={{ once: true }}
             custom={1}
           >
-            My primary focus lies in <span className="font-semibold">data analysis,
-            machine learning, and natural language processing (NLP)</span>. I’m
-            passionate about pattern discovery, model development for
-            decision-making, and applying advanced techniques to solve real-world
-            problems with measurable impact.
+            I work confidently with{" "}
+            <span className="font-semibold">Python (Pandas, NumPy)</span>,{" "}
+            <span className="font-semibold">SQL (MySQL)</span>, and{" "}
+            <span className="font-semibold">Power BI</span>, applying them to tasks
+            such as <span className="font-semibold">data cleaning, exploratory
+            analysis, and dashboard creation</span>. My experience also includes{" "}
+            <span className="font-semibold">machine learning, EDA, and automating
+            reporting processes</span>, bridging the gap between data exploration
+            and impactful visualization.
           </motion.p>
 
           <motion.p
@@ -74,24 +86,13 @@ export default function About() {
             viewport={{ once: true }}
             custom={2}
           >
-            In every project, I emphasize clarity, precision, and innovation. My
-            approach balances <span className="font-semibold">technical rigor,
-            creativity, and teamwork</span>. I value effective collaboration and
-            continuous learning to deliver high-quality, efficient, and scalable
-            results.
-          </motion.p>
-
-          <motion.p
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            custom={3}
-          >
-            I’m currently based in <span className="font-semibold">Frankfurt am
-            Main</span> and open to <span className="font-semibold">full-time roles</span> and
-            <span className="font-semibold"> freelance projects</span>, with the flexibility to
-            collaborate <span className="font-semibold">remotely</span> across Europe.
+            In every project, I focus on{" "}
+            <span className="font-semibold">clarity, precision, and collaboration</span>,
+            while combining technical skills with creativity to design effective and
+            scalable solutions. I am now seeking a{" "}
+            <span className="font-semibold">six-month mandatory internship</span> to
+            apply my skills, grow as a data professional, and contribute to
+            meaningful data-driven projects.
           </motion.p>
         </div>
 
@@ -133,11 +134,12 @@ export default function About() {
           custom={skills.length * 0.03 + 0.6}
           className="mt-16 max-w-3xl mx-auto text-center text-gray-300 italic"
         >
-          “Data is not just numbers; it is the language of stories waiting to be discovered.”
+          “Data is not just numbers; it is the language of stories waiting to be
+          discovered.”
         </motion.blockquote>
       </div>
 
-      {/* Subtle grid overlay like your design */}
+      {/* Subtle grid overlay */}
       <div className="pointer-events-none absolute inset-0 opacity-10 [background-image:linear-gradient(to_right,rgba(255,255,255,.15)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,.15)_1px,transparent_1px)] [background-size:60px_60px]" />
     </section>
   );
