@@ -113,7 +113,7 @@ function ProjectCard({ proj, index }) {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition"
               >
                 <FaGithub className="text-xl" />
-                <span>GitHub</span>
+                <span>Github</span>
               </a>
             )}
             {proj.demo && (
