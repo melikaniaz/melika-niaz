@@ -31,7 +31,7 @@ export const projects = [
     title: "AdventureWorks Sales & Customer Insights",
     description:
       "Complete Business Intelligence pipeline on the AdventureWorks sample database.",
-    image: "public/projects/Aw.png",
+    image: "/projects/Aw.png",
     tags: ["SQL", "MySQL", "Power BI", "Data Visualization", "Business Intelligence (BI)", "ETL", "AdventureWorks Dataset", "KPIs", "Customer Insights", "Sales Dashboard", "Data Modeling", "DAX"],
     github: "https://github.com/melikaniaz/AdventureWorks-Sales-Insights",
     demo: "#"

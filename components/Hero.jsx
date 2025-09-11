@@ -28,7 +28,9 @@ export default function Hero() {
           </h2>
 
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/90 max-w-2xl mb-4">
-            I’m a Master’s student in Data &amp; Discourse Studies at TU Darmstadt with a background in languages and communication, turning data into clear insights with SQL and Python, and currently seeking a six-month internship to apply and grow these skills.
+            I am a Master’s student in Data and Discourse Studies at TU Darmstadt with a strong background in languages and communication. I am passionate about data analysis, SQL, and data visualization, and enjoy transforming complex datasets into clear, actionable insights using Python, Power BI, and dashboards. I look forward to collaborating with you and contributing my skills to meaningful data projects.
+
+
           </p>
 
           {/* Education Badge */}
