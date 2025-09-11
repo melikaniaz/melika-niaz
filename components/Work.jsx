@@ -20,7 +20,7 @@ export const projects = [
     id: "air-travel-dashboard",
     title: "Air Travel Dashboard",
     description:
-      "Identified airlines with the highest number of flights, compared average ticket prices (€), visualized market share, and highlighted flight networks.",
+      "Identified airlines with the highest number of flights, compared average ticket prices , visualized market share, and highlighted flight networks.",
     image: "/projects/air_travel_dashboard.png",
     tags: ["MySQL", "Database queries and views", "Power BI Desktop", "Dashboard and visualization", "Evaluation and interactive demo UI"],
     github: "https://github.com/melikaniaz/-Air-Travel-Dashboard",
@@ -31,7 +31,7 @@ export const projects = [
     title: "AdventureWorks Sales & Customer Insights",
     description:
       "Complete Business Intelligence pipeline on the AdventureWorks sample database.",
-    image: "public/projects/1a4628d9-0eb5-4fd5-94dc-494754f0d527.png",
+    image: "public/projects/Aw.png",
     tags: ["SQL", "MySQL", "Power BI", "Data Visualization", "Business Intelligence (BI)", "ETL", "AdventureWorks Dataset", "KPIs", "Customer Insights", "Sales Dashboard", "Data Modeling", "DAX"],
     github: "https://github.com/melikaniaz/AdventureWorks-Sales-Insights",
     demo: "#"
