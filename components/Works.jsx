@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 
-export const projects = [
+export const defaultProjects = [
   {
     id: "ev-population",
     title: "Electric Vehicle Population Analysis",
@@ -132,7 +132,7 @@ function ProjectCard({ proj, index }) {
     );
 }
 
-export default function Work({ projects = defaultProjects }) {
+export default function Works({ projects = defaultProjects }) {
     return (
         <section
             id="work"
