@@ -53,12 +53,9 @@ export default function About() {
             custom={0}
           >
             I am <span className="font-semibold text-white">Melika Niaz</span>, a
-            Master’s student in <span className="font-semibold">Data and Discourse
-            Studies at TU Darmstadt</span> with a background in languages and
-            communication. Over the course of my studies and projects, I discovered
-            a strong passion for working with data—uncovering patterns, making sense
-            of complexity, and transforming raw information into insights that
-            matter.
+Master’s student in <span className="font-semibold">Data and Discourse
+Studies at TU Darmstadt</span> with a background in languages and
+communication. I am passionate about <span className="font-semibold">data analysis, SQL, and data visualization</span>, and enjoy transforming complex datasets into clear, actionable insights using Python, Power BI, and dashboards. I look forward to collaborating with you and contributing my skills to meaningful data projects.
           </motion.p>
 
           <motion.p
