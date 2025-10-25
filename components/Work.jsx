@@ -35,7 +35,17 @@ export const projects = [
     tags: ["SQL", "MySQL", "Power BI", "Data Visualization", "Business Intelligence (BI)", "ETL", "AdventureWorks Dataset", "KPIs", "Customer Insights", "Sales Dashboard", "Data Modeling", "DAX"],
     github: "https://github.com/melikaniaz/AdventureWorks-Sales-Insights",
     demo: "#"
-  }
+  },
+  {
+  id: "bmw-worldwide-sales",
+  title: "BMW Worldwide Sales (2010–2024)",
+  description:
+    "Power BI dashboard analyzing global BMW KPIs: total revenue, sales volume, electric growth, regional sales trends, and fuel type insights.",
+  image: "/projects/Bmw.png",
+  tags: ["Power BI", "Data Visualization", "KPIs", "DAX", "Business Insights"],
+  github: "https://github.com/melikaniaz/BMW-Worldwide-Sales-2010-2024-",
+  demo: "#"
+}
 ];
 
 const fadeUp = {
