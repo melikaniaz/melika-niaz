@@ -45,7 +45,17 @@ export const projects = [
   tags: ["Power BI", "Data Visualization", "KPIs", "DAX", "Business Insights"],
   github: "https://github.com/melikaniaz/BMW-Worldwide-Sales-2010-2024-",
   demo: "#"
-}
+},
+  {
+    id: "pharma-atc-kpi",
+    title: "Pharma ATC Portfolio & KPI Dashboard",
+    description:
+      "Power BI dashboard on a 6‑year pharmaceutical sales dataset (2014–2019, ATC level), tracking total sales, YoY growth, portfolio coverage, and ATC market share to support portfolio decisions in a life‑science context.",
+    image: "/projects/pharma.png",
+    tags: ["Power BI", "KPIs", "DAX", "Pharma Sales", "ATC Classification", "Data Visualization"],
+    github: "https://github.com/melikaniaz/Pharma-ATC-Portfolio-KPI-Dashboard",
+    demo: "#"
+  }
 ];
 
 const fadeUp = {
