@@ -56,6 +56,16 @@ export const projects = [
     github: "https://github.com/melikaniaz/Pharma-ATC-Portfolio-KPI-Dashboard",
     demo: "#"
   }
+  {
+    id: "powerbi-retail",
+title: "Retail Sales Dashboard",
+description:
+  "Multi-page Power BI dashboard analyzing sales performance, customer behavior, and product trends with KPIs, forecasting, and DAX measures.",
+image: "/projects/sa.png",
+tags: ["Power BI", "DAX", "Power Query", "Data Visualization"],
+github: "https://github.com/melikaniaz/powerbi-retail-dashboard",
+demo: "#"
+  }
 ];
 
 const fadeUp = {
